@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9667BA61DE629FD000251F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9667BA51DE629FD000251F1 /* AppDelegate.swift */; };
+		F9667BA81DE629FD000251F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9667BA71DE629FD000251F1 /* ViewController.swift */; };
+		F9667BAA1DE629FD000251F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9667BA91DE629FD000251F1 /* Assets.xcassets */; };
+		F9667BAD1DE629FD000251F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9667BAB1DE629FD000251F1 /* Main.storyboard */; };
+		F9667BB81DE629FE000251F1 /* MyFirstMacApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9667BB71DE629FE000251F1 /* MyFirstMacApplicationTests.swift */; };
+		F9667BC31DE629FE000251F1 /* MyFirstMacApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9667BC21DE629FE000251F1 /* MyFirstMacApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9667BB41DE629FE000251F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9667B9A1DE629FD000251F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9667BA11DE629FD000251F1;
+			remoteInfo = MyFirstMacApplication;
+		};
+		F9667BBF1DE629FE000251F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9667B9A1DE629FD000251F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9667BA11DE629FD000251F1;
+			remoteInfo = MyFirstMacApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9667BA21DE629FD000251F1 /* MyFirstMacApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstMacApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9667BA51DE629FD000251F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9667BA71DE629FD000251F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9667BA91DE629FD000251F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9667BAC1DE629FD000251F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9667BAE1DE629FD000251F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9667BB31DE629FE000251F1 /* MyFirstMacApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstMacApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9667BB71DE629FE000251F1 /* MyFirstMacApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstMacApplicationTests.swift; sourceTree = "<group>"; };
+		F9667BB91DE629FE000251F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9667BBE1DE629FE000251F1 /* MyFirstMacApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstMacApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9667BC21DE629FE000251F1 /* MyFirstMacApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstMacApplicationUITests.swift; sourceTree = "<group>"; };
+		F9667BC41DE629FE000251F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9667B9F1DE629FD000251F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9667BB01DE629FE000251F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9667BBB1DE629FE000251F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9667B991DE629FD000251F1 = {
+			isa = PBXGroup;
+			children = (
+				F9667BA41DE629FD000251F1 /* MyFirstMacApplication */,
+				F9667BB61DE629FE000251F1 /* MyFirstMacApplicationTests */,
+				F9667BC11DE629FE000251F1 /* MyFirstMacApplicationUITests */,
+				F9667BA31DE629FD000251F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9667BA31DE629FD000251F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9667BA21DE629FD000251F1 /* MyFirstMacApplication.app */,
+				F9667BB31DE629FE000251F1 /* MyFirstMacApplicationTests.xctest */,
+				F9667BBE1DE629FE000251F1 /* MyFirstMacApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9667BA41DE629FD000251F1 /* MyFirstMacApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F9667BA51DE629FD000251F1 /* AppDelegate.swift */,
+				F9667BA71DE629FD000251F1 /* ViewController.swift */,
+				F9667BA91DE629FD000251F1 /* Assets.xcassets */,
+				F9667BAB1DE629FD000251F1 /* Main.storyboard */,
+				F9667BAE1DE629FD000251F1 /* Info.plist */,
+			);
+			path = MyFirstMacApplication;
+			sourceTree = "<group>";
+		};
+		F9667BB61DE629FE000251F1 /* MyFirstMacApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9667BB71DE629FE000251F1 /* MyFirstMacApplicationTests.swift */,
+				F9667BB91DE629FE000251F1 /* Info.plist */,
+			);
+			path = MyFirstMacApplicationTests;
+			sourceTree = "<group>";
+		};
+		F9667BC11DE629FE000251F1 /* MyFirstMacApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9667BC21DE629FE000251F1 /* MyFirstMacApplicationUITests.swift */,
+				F9667BC41DE629FE000251F1 /* Info.plist */,
+			);
+			path = MyFirstMacApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9667BA11DE629FD000251F1 /* MyFirstMacApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9667BC71DE629FE000251F1 /* Build configuration list for PBXNativeTarget "MyFirstMacApplication" */;
+			buildPhases = (
+				F9667B9E1DE629FD000251F1 /* Sources */,
+				F9667B9F1DE629FD000251F1 /* Frameworks */,
+				F9667BA01DE629FD000251F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstMacApplication;
+			productName = MyFirstMacApplication;
+			productReference = F9667BA21DE629FD000251F1 /* MyFirstMacApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9667BB21DE629FE000251F1 /* MyFirstMacApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9667BCA1DE629FE000251F1 /* Build configuration list for PBXNativeTarget "MyFirstMacApplicationTests" */;
+			buildPhases = (
+				F9667BAF1DE629FE000251F1 /* Sources */,
+				F9667BB01DE629FE000251F1 /* Frameworks */,
+				F9667BB11DE629FE000251F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9667BB51DE629FE000251F1 /* PBXTargetDependency */,
+			);
+			name = MyFirstMacApplicationTests;
+			productName = MyFirstMacApplicationTests;
+			productReference = F9667BB31DE629FE000251F1 /* MyFirstMacApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9667BBD1DE629FE000251F1 /* MyFirstMacApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9667BCD1DE629FE000251F1 /* Build configuration list for PBXNativeTarget "MyFirstMacApplicationUITests" */;
+			buildPhases = (
+				F9667BBA1DE629FE000251F1 /* Sources */,
+				F9667BBB1DE629FE000251F1 /* Frameworks */,
+				F9667BBC1DE629FE000251F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9667BC01DE629FE000251F1 /* PBXTargetDependency */,
+			);
+			name = MyFirstMacApplicationUITests;
+			productName = MyFirstMacApplicationUITests;
+			productReference = F9667BBE1DE629FE000251F1 /* MyFirstMacApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9667B9A1DE629FD000251F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = haselnet;
+				TargetAttributes = {
+					F9667BA11DE629FD000251F1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F9667BB21DE629FE000251F1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9667BA11DE629FD000251F1;
+					};
+					F9667BBD1DE629FE000251F1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9667BA11DE629FD000251F1;
+					};
+				};
+			};
+			buildConfigurationList = F9667B9D1DE629FD000251F1 /* Build configuration list for PBXProject "MyFirstMacApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9667B991DE629FD000251F1;
+			productRefGroup = F9667BA31DE629FD000251F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9667BA11DE629FD000251F1 /* MyFirstMacApplication */,
+				F9667BB21DE629FE000251F1 /* MyFirstMacApplicationTests */,
+				F9667BBD1DE629FE000251F1 /* MyFirstMacApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9667BA01DE629FD000251F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9667BAA1DE629FD000251F1 /* Assets.xcassets in Resources */,
+				F9667BAD1DE629FD000251F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9667BB11DE629FE000251F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9667BBC1DE629FE000251F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9667B9E1DE629FD000251F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9667BA81DE629FD000251F1 /* ViewController.swift in Sources */,
+				F9667BA61DE629FD000251F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9667BAF1DE629FE000251F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9667BB81DE629FE000251F1 /* MyFirstMacApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9667BBA1DE629FE000251F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9667BC31DE629FE000251F1 /* MyFirstMacApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9667BB51DE629FE000251F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9667BA11DE629FD000251F1 /* MyFirstMacApplication */;
+			targetProxy = F9667BB41DE629FE000251F1 /* PBXContainerItemProxy */;
+		};
+		F9667BC01DE629FE000251F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9667BA11DE629FD000251F1 /* MyFirstMacApplication */;
+			targetProxy = F9667BBF1DE629FE000251F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9667BAB1DE629FD000251F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9667BAC1DE629FD000251F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9667BC51DE629FE000251F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9667BC61DE629FE000251F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F9667BC81DE629FE000251F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFirstMacApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haselnet.MyFirstMacApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9667BC91DE629FE000251F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFirstMacApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haselnet.MyFirstMacApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9667BCB1DE629FE000251F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFirstMacApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haselnet.MyFirstMacApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstMacApplication.app/Contents/MacOS/MyFirstMacApplication";
+			};
+			name = Debug;
+		};
+		F9667BCC1DE629FE000251F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFirstMacApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haselnet.MyFirstMacApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstMacApplication.app/Contents/MacOS/MyFirstMacApplication";
+			};
+			name = Release;
+		};
+		F9667BCE1DE629FE000251F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFirstMacApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haselnet.MyFirstMacApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyFirstMacApplication;
+			};
+			name = Debug;
+		};
+		F9667BCF1DE629FE000251F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFirstMacApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haselnet.MyFirstMacApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyFirstMacApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9667B9D1DE629FD000251F1 /* Build configuration list for PBXProject "MyFirstMacApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9667BC51DE629FE000251F1 /* Debug */,
+				F9667BC61DE629FE000251F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9667BC71DE629FE000251F1 /* Build configuration list for PBXNativeTarget "MyFirstMacApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9667BC81DE629FE000251F1 /* Debug */,
+				F9667BC91DE629FE000251F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9667BCA1DE629FE000251F1 /* Build configuration list for PBXNativeTarget "MyFirstMacApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9667BCB1DE629FE000251F1 /* Debug */,
+				F9667BCC1DE629FE000251F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9667BCD1DE629FE000251F1 /* Build configuration list for PBXNativeTarget "MyFirstMacApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9667BCE1DE629FE000251F1 /* Debug */,
+				F9667BCF1DE629FE000251F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9667B9A1DE629FD000251F1 /* Project object */;
+}
